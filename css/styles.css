@@ -1,0 +1,59 @@
+body{
+    font-family: "Kosugi", sans-serif;
+}
+#container{
+    width: 600px;
+    height: 400px;
+    background-color: rgb(22, 22, 22);
+    overflow: hidden;
+    border: solid black;
+}
+#imagesBg {
+    width: 600px;
+    height: 360px;
+    background-size: cover;
+    transition: 1s;
+}
+.prev, .next{
+    position: relative;
+    margin-top: -210px;
+    background-color: rgba(44,22,80, .4);
+    width: 60px;
+    height: 50px;
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+    cursor: pointer;
+}
+.prev{
+    float: left;
+}
+.next{
+    float: right;
+}
+#container:hover .next{
+    background-color: rgba(44,22,80, .7);
+}
+#container:hover .prev{
+    background-color: rgba(44,22,80, .7);
+}
+ul{
+    list-style:none;
+    width: 550px;
+    display: flex;
+    text-align: center;
+    position: relative;
+    left: 200px;
+}
+ul li{
+    background: #dbdee6;
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.selected{
+    background-color: #c0392b;
+}
