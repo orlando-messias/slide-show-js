@@ -1,1 +1,1 @@
-A clickable Slide Show
+A clickable Slide Show using javascript
